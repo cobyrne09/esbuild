@@ -16,7 +16,7 @@ export const knownWindowsPackages: Record<string, string> = {
 export const knownUnixlikePackages: Record<string, string> = {
   'android arm64 LE': 'esbuild-android-arm64',
   'darwin arm64 LE': 'esbuild-darwin-arm64',
-  'darwin x64 LE': 'esbuild-darwin-64',
+  'darwin x64 LE': 'esbuild-linux-64',
   'freebsd arm64 LE': 'esbuild-freebsd-arm64',
   'freebsd x64 LE': 'esbuild-freebsd-64',
   'linux arm LE': 'esbuild-linux-arm',
